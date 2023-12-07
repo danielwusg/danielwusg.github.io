@@ -1,2 +1,3 @@
 # danielwusg.github.io
-Shengguang Wu's Academic Homepage
+
+Shengguang Wu's Academic Homepage.

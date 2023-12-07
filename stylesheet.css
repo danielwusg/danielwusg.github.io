@@ -1,0 +1,85 @@
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 17px
+}
+
+strong {
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 17px;
+  font-weight: 900; /* or the highest weight supported by Crimson Text */
+}
+
+heading {
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 26px;
+}
+
+papertitle {
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 17px;
+  font-weight: 700
+}
+
+name {
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 36px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.stronger-bold {
+  font-weight: 900;
+}
+
+.underscored {
+  text-decoration: underline;
+}
+
+a img {
+  height: 30px; /* adjust the size as needed */
+  margin-right: 10px; /* space between icons */
+}
+
+.small-caps {
+  font-variant: small-caps;
+  /* Additional styling as needed */
+}

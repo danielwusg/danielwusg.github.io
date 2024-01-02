@@ -83,3 +83,7 @@ a img {
   font-variant: small-caps;
   /* Additional styling as needed */
 }
+
+.tldr-text {
+  font-size: 15px; /* 或者使用像素，例如 '12px' */
+}

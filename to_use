@@ -1,0 +1,422 @@
+<!-- Template from Jon Barron -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Shengguang Wu</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <link rel="icon" href="images/icons/stonehenge.svg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111341597-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-111341597-1');
+    </script>
+
+    <style>
+      .container {
+          display: flex;
+          align-items: center;
+      }
+      .container img {
+          height: 40px; /* Adjust as needed */
+          margin-right: 10px; /* Space between text and image */
+      }
+      .text {
+          line-height: 20px; /* Adjust based on text size */
+      }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro|Crimson+Text|Noto+Sans+SC"
+    rel="stylesheet">
+
+    <script>
+      function toggleLists() {
+        var shortList = document.getElementById("shortList");
+        var fullList = document.getElementById("fullList");
+
+        if (shortList.style.display === "none") {
+            shortList.style.display = "block";
+            fullList.style.display = "none";
+        } else {
+            shortList.style.display = "none";
+            fullList.style.display = "block";
+        }
+      }
+      function showFullList() {
+          document.getElementById("shortList").style.display = "none";
+          document.getElementById("fullList").style.display = "block";
+      }
+
+      function showShortList() {
+          document.getElementById("fullList").style.display = "none";
+          document.getElementById("shortList").style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <table width="880" border="0" align="center" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="55%" valign="bottom">
+              <name>Shengguang Wu</name><br>
+              Ph.D. Student, Computer Science, Stanford University<br>
+              Email: shgwu [AT] stanford [DOT] edu<br><br>
+              <a href="https://scholar.google.com/citations?user=QZmepnEAAAAJ&hl=en">
+                <img src="images/icons/google-scholar.svg" alt="Google Scholar Icon">
+              </a>
+              <!-- <a href="https://github.com/danielwusg"> -->
+              <a href="">
+                <img src="images/icons/github.svg" alt="GitHub Icon">
+              </a>
+              <!-- <a href="https://www.linkedin.com/in/shengguang-wu-41334627b"> -->
+              <a href="">
+                <img src="images/icons/linkedin.svg" alt="LinkedIn Icon">
+              </a>
+              <!-- <a href="cv.pdf"> -->
+              <a href="">
+                <img src="images/icons/curriculum-vitae.svg" alt="CV">
+              </a>
+            </td>
+            <td width="45%">
+              <img src="images/meinparis.jpg" width="100%">
+            </td>
+          </tr>
+          </table>
+          
+          <!-- About me -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>About me</heading>
+              <br>
+                <p class="light">
+                  Hi! My name is Shengguang (I also go by Daniel). I'm a first-year PhD student in Computer Science at Stanford University.
+                  I'm currently rotating with <a href="https://www.autonomousagents.stanford.edu/people/">Nick Haber</a> at <a href="https://www.autonomousagents.stanford.edu/">Stanford Autonomous Agents Lab</a>.
+                  <!-- , affliated with <a href="https://nlp.stanford.edu/">Stanford NLP</a> and <a href="https://www.autonomousagents.stanford.edu/">Autonomous Agents Lab</a>. I'm currently rotating with <a href="https://www.autonomousagents.stanford.edu/people/">Nick Haber</a>.  -->
+                  <br>
+                  I obtained my Master's degree from Peking University, advised by <a href="https://scholar.google.com.hk/citations?hl=en&user=9f4JUrUAAAAJ/">Qi Su</a>. 
+                  Previously, I've also worked as a research intern with <a href="https://qwenlm.github.io/">Qwen Team</a> and at <a href="https://www.bytedance.com/en/">ByteDance AI-Lab</a>.
+                  <!-- <br>   -->
+                  <!-- I received my Master's degree from Peking University, advised by <a href="https://scholar.google.com.hk/citations?hl=en&user=9f4JUrUAAAAJ/">Qi Su</a>.  -->
+                  <!-- <br>   -->
+                  <!-- Previously, I was a research intern at <a href="https://www.bytedance.com/en/">ByteDance AI-Lab NLP</a> and in <a href="https://qwenlm.github.io/">Qwen Team, Alibaba</a>. -->
+                </p>
+            </td>
+          </tr>
+          </table>
+          
+          <!-- <br> -->
+
+          <!-- Research Interests -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td width="100%" valign="middle">
+                <heading>Research Interests</heading>
+                <p>
+                  I am interested in developing human-like learning and reasoning skills in machines across language and visual domains. 
+                  My current research involves:
+                </p>
+                <div class="container">
+                  <img src="images/icons/learn3.svg" alt="Self Improvement Icon">
+                  <div class="text">
+                    <strong>Self-Improvement:</strong><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Enabling AI agents to learn from interactions and <strong>continually self-improve</strong> — actively adapting to new information and novel tasks.
+                  </div>
+                </div>
+                <br>
+                <div class="container">
+                  <img src="images/icons/vision.svg" alt="Multimodal Grounding Icon">
+                  <div class="text">
+                    <strong>Multimodal Grounding:</strong><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Drawing from visual feedback to optimize language-based reasoning and harnessing textual insights to guide visual perception.
+                  </div>
+                </div>
+                <br>
+              </td>
+            </tr>
+          </table>
+          
+          <!-- Publications & Manuscripts -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="shortList">
+            <tr>
+              <td width="30%" valign="middle">
+                <heading>Publications</heading> 
+              </td>
+              <td width="70%" valign="right">
+                <div align="right">
+                  (see also <a href="https://scholar.google.com/citations?user=QZmepnEAAAAJ&hl=en">Google Scholar</a>)
+                  <!-- <a href="https://scholar.google.com/citations?user=QZmepnEAAAAJ&hl=en">Full List of Publications</a> -->
+                </div>
+              </td>
+            </tr>
+            <!-- <tr> -->
+              <!-- <td width="30%">
+                <img src="images/prag2.png" width=250px>
+              </td> -->
+              <!-- <td width="70%" valign="middle">
+                <div class="title">
+                  <!-- <a href=""><b>Rethinking Pragmatics in Large Language Models: Towards Open-Ended Evaluation and Preference Tuning</b></a> -->
+                  <!-- <b>Rethinking Pragmatics in Large Language Models: Towards Open-Ended Evaluation and Preference Tuning</b>
+                </div>
+                <div class="authors">
+                    <strong>Shengguang Wu</strong>, Shusheng Yang, Zhenglun Chen, Qi Su
+                </div>
+                <div class="venue">
+                  <i><b>ArXiv</b></i>, 2024
+                </div>
+                <div align="justify" class="tldr-text">
+                  TL;DR: We proposed novel paradigms for assessing and enhancing social-pragmatic abilities in L(V)LMs. Key results include: 1. open-ended evaluation better reveals LLMs' pragmatic generation as opposed to multiple-choice setup; 2. preferential tuning effectively invokes pragmatic understanding without compromising generic abilities; 3. improvement of multimodal theory of mind in image referential games.
+                </div>
+              </td> --> 
+            <!-- </tr> -->
+            <tr>
+              <td width="30%">
+                <img src="images/diverseevol.png" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://arxiv.org/pdf/2311.08182.pdf"><b>DiverseEvol: Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning</b></a>
+                  <!-- <a href="papers/diverseevol.pdf"><b>DiverseEvol: Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning</b></a> -->
+                </div>
+                <div class="authors">
+                    <strong>Shengguang Wu</strong>, Keming Lu, Benfeng Xu, Junyang Lin, Qi Su, Chang Zhou
+                </div>
+                <div class="venue">
+                  <i><b>ArXiv</b></i>, 2023
+                </div>
+                <!-- <div class="tags">
+                  <a href="https://arxiv.org/abs/2311.08182">arxiv</a> /
+                  <a href="https://github.com/OFA-Sys/DiverseEvol">code</a> 
+                  <a href="bib/.bib">bibtex</a> -->
+                <!-- </div> -->
+                <div align="justify" class="tldr-text">
+                  TL;DR: <span class="small-caps">DiverseEvol</span> is an efficient instruction-tuning method that allows the model itself to iteratively sample training subsets to improve its own performance, with a key selection principle of maintaining high diversity in the chosen subsets. Across three datasets and benchmarks, our models, trained on less than 4% of the original dataset, match or improve performance compared with finetuning on full data.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="30%">
+                <img src="images/qwen.jpg" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://arxiv.org/pdf/2309.16609.pdf"><b>Qwen Technical Report</b></a>
+                  <!-- <a href="papers/qwen.pdf"><b>Qwen Technical Report</b></a> -->
+                </div>
+                <div class="authors">
+                    <strong>Qwen Team</strong>
+                </div>
+                <div class="venue">
+                   <i><b>ArXiv</b></i>, 2023
+                </div>
+                <!-- <div class="tags">
+                  <a href="https://arxiv.org/abs/2309.16609">arxiv</a> /
+                  <a href="https://github.com/QwenLM/Qwen">code</a>
+                  <!-- <a href="bib/">bibtex</a> -->
+                <!-- </div> -->
+                <div align="justify" class="tldr-text">
+                  TL;DR: We release <span class="small-caps">Qwen</span>, a family of highly-capabale foundation LLMs and Chat-Models. QwenLMs achieve superior performance than baselines (e.g., LLaMA2) of similar sizes on a wide range of benchmarks that measure natural language understanding, reasoning, problem solving, etc. Qwen-72B also outperforms GPT-3.5 on 70% of all tasks.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="30%">
+                <img src="images/artifact.png" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://arxiv.org/pdf/2312.08056.pdf"><b>Knowledge-Aware Artifact Image Synthesis with LLM-Enhanced Prompting and Multi-Source Supervision</b></a>
+                  <!-- <a href="papers/artifact.pdf"><b>Knowledge-Aware Artifact Image Synthesis with LLM-Enhanced Prompting and Multi-Source Supervision</b></a> -->
+                </div>
+                <div class="authors">
+                    <strong>Shengguang Wu</strong>, Zhenglun Chen, Qi Su
+                </div>
+                <div class="venue">
+                  <i><b>ACM-MM</b></i>, 2024
+                  <!-- <i>Under Review at <b>ECCV</b></i>, 2024 -->
+                </div>
+                <!-- <div class="tags"> -->
+                  <!-- <a href="https://arxiv.org/abs/2312.08056">arxiv</a> / -->
+                  <!-- <a href="https://github.com/danielwusg/artifact_diffusion">code</a> -->
+                <!-- </div> -->
+                <div align="justify" class="tldr-text">
+                  TL;DR: We present an artifact recovery model that accurately generates images of lost artifacts adhering to historical knowledge. Key designs include: 1. prompt enhancement with archaeological knowledge elicited from LLMs; 2. contrastive learning for textual guidance on correlated historical expertise; 3. visual-semantic constraints on edge and perceptual features for learning intricate visual details.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="30%">
+                <img src="images/diffuvst.png" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://arxiv.org/pdf/2312.07066.pdf"><b>DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models</b></a>
+                  <!-- <a href="papers/diffuvst.pdf"><b>DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models</b></a> -->
+                </div>
+                <div class="authors">
+                    <strong>Shengguang Wu</strong>, Mei Yuan, Qi Su
+                </div>
+                <div class="venue">
+                   <i>Findings of <b>EMNLP</b></i>, 2023
+                </div>
+                <!-- <div class="tags"> -->
+                  <!-- <a href="https://arxiv.org/abs/2312.07066">arxiv</a> -->
+                  <!--<a href="">code</a>-->
+                  <!-- <a href="bib/">bibtex</a> -->
+                <!-- </div> -->
+                <div align="justify" class="tldr-text">
+                  TL;DR:  We introduced a novel non-autoregressive approach to visual storytelling, <span class="small-caps">DiffuVST</span>, which is a diffusion-based LM featuring bidirectional context guidance and multimodal adapters. It directly predicts ground-truth text embeddings from any noisy input, achieving superior performance across NLG metrics at a massively faster inference speed compared to strong autoregressive baselines.
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <br>
+          
+          <!-- Education
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Education</heading>
+              <table>
+                <tr>
+                  <td width="85%">
+                    <b>Stanford University</b> (2024 - present) <br>
+                    <li> PhD in Computer Science </li>
+                    <!-- <li> Student Researcher at <a href="https://www.ai.pku.edu.cn/">Institute for Artificial Intelligence</a> </li> -->
+                    <!-- <br><br><br><br> -->
+                  <!-- </td>
+                  <td width="15%">
+                    <img src="images/stf-logo.png" width=72px style="display: block; margin-left: auto; margin-right: auto;">
+                  </td>
+                </tr>
+                <tr>
+                  <td width="85%">
+                    <b>Peking University</b> (2021 - 2024) <br>
+                    <li> Master in Computational Linguistics </li>
+                    <li> Student Researcher at <a href="https://www.ai.pku.edu.cn/">Institute for Artificial Intelligence</a> </li>
+                  </td>
+                  <td width="15%">
+                    <img src="images/pku-logo.svg" width=92px style="display: block; margin-left: auto; margin-right: auto;">
+                  </td>
+                </tr>
+                <tr>
+                  <td width="85%">
+                    <b>Ludwig Maximilian University of Munich (LMU Munich)</b> (2019 - 2020)<br>
+                    <li> Exchange: Cognitive Linguistics, Formal Analysis of Language </li>
+                  </td>
+                  <td width="15%">
+                    <img src="images/lmu-logo.svg" width=110px style="display: block; margin-left: auto; margin-right: auto;">
+                  </td>
+                </tr>
+                <tr>
+                  <td width="85%">
+                    <b>Nanjing University</b> (2017 - 2021) <br>
+                    <li> Bachelor in Germanic Linguistics </li>
+                  </td>
+                  <td width="15%">
+                    <img src="images/nju-logo.svg" width=75px style="display: block; margin-left: auto; margin-right: auto;">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          </table> -->
+
+          <!-- <br> -->
+
+          <!-- Experience -->
+          <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Industry Experiences</heading><br><br>
+              <table>
+                <tr>
+                  <td width="85%">
+                    <a href="https://qwenlm.github.io/"><b>Qwen Team, Alibaba Group</b></a>, Beijing, China (Mar. 2023 - Feb. 2024) <br>
+                    <li> Research Intern: Foundation LLMs and Human-Alignment (SFT, DPO, RAG) </li>
+                    <!-- <li> Principal Investigators: <a href="https://scholar.google.com/citations?user=qp6IwtgAAAAJ&hl=en">Junyang Lin</a>, <a href="https://scholar.google.com/citations?user=QeSoG3sAAAAJ&hl=en">Dr. Chang Zhou</a> </li> -->
+                  <!-- </td>
+                  <td width="15%">
+                    <img src="images/alibaba-logo.svg" width=180px style="display: block; margin-left: auto; margin-right: auto;">
+                  </td>
+                </tr>
+                <tr>
+                  <td width="85%">
+                    <a href="https://www.bytedance.com/en/"><b>ByteDance AI Lab</b></a>, Beijing, China (Jul. 2022 - Feb. 2023) <br>
+                    <li> Research & Engineering Intern: NLI and Data-Centric Learning (automatic detection of harmful messages & fake news) </li>
+                    <!-- <li> Principal Investigators: <a href="https://zhangyuc.github.io/">Yuchen Zhang</a>, <a href="https://scholar.google.com/citations?user=nTl5mSwAAAAJ&hl=en">Hang Li</a> </li> -->
+                  <!-- </td>
+                  <td width="15%">
+                    <img src="images/bytedance-logo.svg" width=180px style="display: block; margin-left: auto; margin-right: auto;">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          </table> --> 
+
+          <!-- Teaching -->
+          <!-- 
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Teaching</heading><br><br>
+              <strong> <br>
+              <strong> <br>
+            </td>
+          </tr>
+          </table>
+          -->
+
+          <!-- Academic Service -->
+          <!-- 
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td width="100%" valign="middle">
+                <heading>Academic Service</heading><br><br>
+                <strong>Reviewer</strong>: EMNLP 2022-2023, ACL 2023, EACL 2023-2024, CVPR 2024.
+              </td>
+            </tr>
+            </table>
+          -->
+
+          <!-- Talks -->
+          <!-- 
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Talks</heading>
+              <table>
+                <tr>
+                  <td width="100%">
+                    <a href=""><b>CLUNCH</b></a>, University , <br>
+                    <i>title???</i>, date???. <a href="">slides</a> 
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          </table>
+          -->
+
+          <!-- Acknowledgements -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td><br>
+                <p align="right" style="font-size: small;">
+                  Website template from <a href="https://github.com/YueYANG1996/YueYANG1996.github.io" style="font-size: small;">YueYANG1996.github.io</a>.
+                </p>
+              </td>
+            </tr>
+          </table>          
+        </td>
+      </tr>
+    </table>
+  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=hia7jEgmSIlj13HiQ3nV_z3fbdB4PK41gwbICeSTxjo&cl=ffffff&w=100"></script>
+  </body>
+<!-- <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh-oh'},{'server':'p3plzcpnl472835'},{'id':'7914943'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html> -->

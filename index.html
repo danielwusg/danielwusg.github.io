@@ -67,13 +67,14 @@
               <a href="https://scholar.google.com/citations?user=QZmepnEAAAAJ&hl=en">
                 <img src="images/icons/google-scholar.svg" alt="Google Scholar Icon">
               </a>
-              <a href="https://github.com/danielwusg">
+              <a href="">
                 <img src="images/icons/github.svg" alt="GitHub Icon">
               </a>
-              <a href="https://www.linkedin.com/in/shengguang-wu-41334627b">
+              <a href="">
                 <img src="images/icons/linkedin.svg" alt="LinkedIn Icon">
               </a>
-              <a href="cv.pdf">
+              <!-- <a href="cv.pdf"> -->
+              <a href="">
                 <img src="images/icons/curriculum-vitae.svg" alt="CV">
               </a>
             </td>
@@ -89,7 +90,7 @@
             <td width="100%" valign="middle">
               <heading>About me</heading>
               <br>
-                <p class="light">Hi! My name is Shengguang Wu. You can also call me Daniel. I am a third-year Master's student at <a href="https://english.pku.edu.cn/">Peking University</a>, where I am grateful to be advised by <a href="https://scholar.google.com.hk/citations?user=9f4JUrUAAAAJ&hl=en">Prof. Qi Su</a>. Currently, I am also a research intern in Qwen Team at <a href="https://damo.alibaba.com/">DAMO Academy, Alibaba Group</a>, where we develop state-of-the-art foundation LLMs such as <a href="https://github.com/QwenLM/Qwen/">QwenLM</a>.
+                <p class="light">Hi! My name is Shengguang Wu. I also go by Daniel. I am a third-year Master's student at <a href="https://english.pku.edu.cn/">Peking University</a>, where I am grateful to be advised by <a href="https://scholar.google.com.hk/citations?user=9f4JUrUAAAAJ&hl=en">Prof. Qi Su</a>. Currently, I am also a research intern in <a href="https://qwenlm.github.io/">Qwen Team, Alibaba Group</a>, where we develop state-of-the-art foundation LLMs such as <a href="https://github.com/QwenLM/Qwen/">QwenLM</a>.
                 </p>
             </td>
           </tr>
@@ -160,52 +161,73 @@
                 </div>
               </td>
             </tr>
-            <tr>
-              <td width="30%">
-                <img src="images/diffuvst.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
+            <!-- <tr> -->
+              <!-- <td width="30%">
+                <img src="images/prag2.png" width=250px>
+              </td> -->
+              <!-- <td width="70%" valign="middle">
                 <div class="title">
-                  <a href="papers/diffuvst.pdf"><b>DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models</b></a>
+                  <!-- <a href=""><b>Rethinking Pragmatics in Large Language Models: Towards Open-Ended Evaluation and Preference Tuning</b></a> -->
+                  <!-- <b>Rethinking Pragmatics in Large Language Models: Towards Open-Ended Evaluation and Preference Tuning</b>
                 </div>
                 <div class="authors">
-                    <strong>Shengguang Wu</strong>, Mei Yuan, Qi Su
+                    <strong>Shengguang Wu</strong>, Shusheng Yang, Zhenglun Chen, Qi Su
                 </div>
                 <div class="venue">
-                   <i>Findings of <b>EMNLP</b></i>, 2023
-                </div>
-                <div class="tags">
-                  <a href="https://arxiv.org/abs/2312.07066">arxiv</a>
-                  <!--<a href="">code</a>-->
-                  <!-- <a href="bib/">bibtex</a> -->
+                  <i><b>ArXiv</b></i>, 2024
                 </div>
                 <div align="justify" class="tldr-text">
-                  TL;DR:  We introduced a novel non-autoregressive approach to visual storytelling, <span class="small-caps">DiffuVST</span>, which is a diffusion-based LM featuring bidirectional context guidance and multimodal adapters. It directly predicts ground-truth text embeddings from any noisy input, achieving superior performance across NLG metrics at a massively faster inference speed compared to strong autoregressive baselines.
+                  TL;DR: We proposed novel paradigms for assessing and enhancing social-pragmatic abilities in L(V)LMs. Key results include: 1. open-ended evaluation better reveals LLMs' pragmatic generation as opposed to multiple-choice setup; 2. preferential tuning effectively invokes pragmatic understanding without compromising generic abilities; 3. improvement of multimodal theory of mind in image referential games.
                 </div>
-              </td>
-            </tr>
+              </td> --> 
+            <!-- </tr> -->
             <tr>
               <td width="30%">
                 <img src="images/diverseevol.png" width=250px>
               </td>
               <td width="70%" valign="middle">
                 <div class="title">
-                  <a href="papers/diverseevol.pdf"><b>DiverseEvol: Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning</b></a>
+                  <a href="https://arxiv.org/pdf/2311.08182.pdf"><b>DiverseEvol: Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning</b></a>
+                  <!-- <a href="papers/diverseevol.pdf"><b>DiverseEvol: Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning</b></a> -->
                 </div>
                 <div class="authors">
                     <strong>Shengguang Wu</strong>, Keming Lu, Benfeng Xu, Junyang Lin, Qi Su, Chang Zhou
                 </div>
                 <div class="venue">
-                   <i>Under Review, 2024</i>
-                   <!-- <i>Under Review at <b>NAACL</b></i>, 2024 -->
+                  <i><b>ArXiv</b></i>, 2023
                 </div>
-                <div class="tags">
+                <!-- <div class="tags">
                   <a href="https://arxiv.org/abs/2311.08182">arxiv</a> /
                   <a href="https://github.com/OFA-Sys/DiverseEvol">code</a> 
-                  <!-- <a href="bib/.bib">bibtex</a> -->
-                </div>
+                  <a href="bib/.bib">bibtex</a> -->
+                <!-- </div> -->
                 <div align="justify" class="tldr-text">
                   TL;DR: <span class="small-caps">DiverseEvol</span> is an efficient instruction-tuning method that allows the model itself to iteratively sample training subsets to improve its own performance, with a key selection principle of maintaining high diversity in the chosen subsets. Across three datasets and benchmarks, our models, trained on less than 4% of the original dataset, match or improve performance compared with finetuning on full data.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="30%">
+                <img src="images/qwen.jpg" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://arxiv.org/pdf/2309.16609.pdf"><b>Qwen Technical Report</b></a>
+                  <!-- <a href="papers/qwen.pdf"><b>Qwen Technical Report</b></a> -->
+                </div>
+                <div class="authors">
+                    <strong>Qwen Team</strong>
+                </div>
+                <div class="venue">
+                   <i><b>ArXiv</b></i>, 2023
+                </div>
+                <!-- <div class="tags">
+                  <a href="https://arxiv.org/abs/2309.16609">arxiv</a> /
+                  <a href="https://github.com/QwenLM/Qwen">code</a>
+                  <!-- <a href="bib/">bibtex</a> -->
+                <!-- </div> -->
+                <div align="justify" class="tldr-text">
+                  TL;DR: We release <span class="small-caps">Qwen</span>, a family of highly-capabale foundation LLMs and Chat-Models. QwenLMs achieve superior performance than baselines (e.g., LLaMA2) of similar sizes on a wide range of benchmarks that measure natural language understanding, reasoning, problem solving, etc. Qwen-72B also outperforms GPT-3.5 on 70% of all tasks.
                 </div>
               </td>
             </tr>
@@ -215,49 +237,50 @@
               </td>
               <td width="70%" valign="middle">
                 <div class="title">
-                  <a href="papers/artifact.pdf"><b>Knowledge-Aware Artifact Image Synthesis with LLM-Enhanced Prompting and Multi-Source Supervision</b></a>
+                  <a href="https://arxiv.org/pdf/2312.08056.pdf"><b>Knowledge-Aware Artifact Image Synthesis with LLM-Enhanced Prompting and Multi-Source Supervision</b></a>
+                  <!-- <a href="papers/artifact.pdf"><b>Knowledge-Aware Artifact Image Synthesis with LLM-Enhanced Prompting and Multi-Source Supervision</b></a> -->
                 </div>
                 <div class="authors">
                     <strong>Shengguang Wu</strong>, Zhenglun Chen, Qi Su
                 </div>
                 <div class="venue">
-                  <i>Under Review, 2024</i>
+                  <i><b>ACM-MM</b></i>, 2024
                   <!-- <i>Under Review at <b>ECCV</b></i>, 2024 -->
                 </div>
-                <div class="tags">
-                  <a href="https://arxiv.org/abs/2312.08056">arxiv</a> /
-                  <a href="https://github.com/danielwusg/artifact_diffusion">code</a>
-                </div>
+                <!-- <div class="tags"> -->
+                  <!-- <a href="https://arxiv.org/abs/2312.08056">arxiv</a> / -->
+                  <!-- <a href="https://github.com/danielwusg/artifact_diffusion">code</a> -->
+                <!-- </div> -->
                 <div align="justify" class="tldr-text">
                   TL;DR: We present an artifact recovery model that accurately generates images of lost artifacts adhering to historical knowledge. Key designs include: 1. prompt enhancement with archaeological knowledge elicited from LLMs; 2. contrastive learning for textual guidance on correlated historical expertise; 3. visual-semantic constraints on edge and perceptual features for learning intricate visual details.
                 </div>
               </td>
             </tr>
-
             <tr>
               <td width="30%">
-                <img src="images/qwen.jpg" width=250px>
+                <img src="images/diffuvst.png" width=250px>
               </td>
               <td width="70%" valign="middle">
                 <div class="title">
-                  <a href="papers/qwen.pdf"><b>Qwen Technical Report</b></a>
+                  <a href="https://arxiv.org/pdf/2312.07066.pdf"><b>DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models</b></a>
+                  <!-- <a href="papers/diffuvst.pdf"><b>DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models</b></a> -->
                 </div>
                 <div class="authors">
-                    <strong>Qwen Team</strong>
+                    <strong>Shengguang Wu</strong>, Mei Yuan, Qi Su
                 </div>
                 <div class="venue">
-                   <i><b>ArXiv</b></i>, 2023
+                   <i>Findings of <b>EMNLP</b></i>, 2023
                 </div>
-                <div class="tags">
-                  <a href="https://arxiv.org/abs/2309.16609">arxiv</a> /
-                  <a href="https://github.com/QwenLM/Qwen">code</a>
+                <!-- <div class="tags"> -->
+                  <!-- <a href="https://arxiv.org/abs/2312.07066">arxiv</a> -->
+                  <!--<a href="">code</a>-->
                   <!-- <a href="bib/">bibtex</a> -->
-                </div>
+                <!-- </div> -->
                 <div align="justify" class="tldr-text">
-                  TL;DR: We release <span class="small-caps">Qwen</span>, a family of highly-capabale foundation LLMs and Chat-Models. QwenLMs achieve superior performance than baselines (e.g., LLaMA2) of similar sizes on a wide range of benchmarks that measure natural language understanding, reasoning, problem solving, etc. Qwen-72B also outperforms GPT-3.5 on 70% of all tasks.
+                  TL;DR:  We introduced a novel non-autoregressive approach to visual storytelling, <span class="small-caps">DiffuVST</span>, which is a diffusion-based LM featuring bidirectional context guidance and multimodal adapters. It directly predicts ground-truth text embeddings from any noisy input, achieving superior performance across NLG metrics at a massively faster inference speed compared to strong autoregressive baselines.
                 </div>
               </td>
-            </tr>  
+            </tr>
           </table>
 
           <br>
@@ -272,7 +295,7 @@
                   <td width="85%">
                     <b>Peking University</b> (2021 - present) <br>
                     <li> Master in Computational Linguistics </li>
-                    <li> Student Researcher at Institute for Artificial Intelligence </li>
+                    <li> Student Researcher at <a href="https://www.ai.pku.edu.cn/">Institute for Artificial Intelligence</a> </li>
                   </td>
                   <td width="15%">
                     <img src="images/pku-logo.svg" width=100px style="display: block; margin-left: auto; margin-right: auto;">

@@ -100,22 +100,10 @@
                   Previously, I completed my Master's at Peking University, advised by <a href="https://scholar.google.com.hk/citations?user=9f4JUrUAAAAJ&hl=en">Qi Su</a>, and worked with <a href="https://qwen.ai/home/">Qwen Team</a> on open-source LLM research.
                 </p>
                 <!-- Research Interests -->
-                <p>
-                  I study how foundation models can <strong>continually improve</strong> and better <strong> understand the physical world</strong>.
-                </p>
                 <div class="container">
-                  <img src="images/icons/learn3.svg" alt="Continual Learning">
+                  <img src="images/icons/learn3.svg" alt="Self-Improvement, Continual Learning, and Embodied Intelligence">
                   <div class="text">
-                    <strong>Self-Improvement & Continual Learning:</strong><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; Building models to learn from experience and interactions over time — adapting to new information and evolving with novel tasks beyond initial training.
-                  </div>
-                </div>
-                <br>
-                <div class="container">
-                  <img src="images/icons/vision.svg" alt="Multimodal Model">
-                  <div class="text">
-                    <strong>Multimodal Reasoning:</strong><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; Connecting language models to 3D structure and dynamics — enabling models to infer, predict and reason about real-world environments.
+                    I study how foundation models and agents <strong>self-improve</strong> and <strong>continually learn</strong> from experience — refining their skills, memory, and tools over time, and adapting to new tasks well beyond their initial training. I am especially interested in models <strong>grounded in the physical world</strong>: sensing and acting in embodied environments, and learning from how the world reacts to their actions.
                   </div>
                 </div>
             </td>
@@ -126,11 +114,30 @@
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="shortList">
             <tr>
               <td width="30%" valign="middle">
-                <heading>Publications</heading> 
+                <heading>Selected Publications</heading>
               </td>
               <td width="70%" valign="right">
                 <div align="right">
                   (see also <a href="https://scholar.google.com/citations?hl=en&user=QZmepnEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>)
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="30%" align="center">
+                <img src="images/automem_crafter.gif" width=200px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://autolearnmem.github.io/"><b>AutoMem: Automated Learning of Memory as a Cognitive Skill</b></a>
+                </div>
+                <div class="authors">
+                  <strong>Shengguang Wu</strong>, Hao Zhu, Yuhui Zhang, Xiaohan Wang, Serena Yeung-Levy
+                </div>
+                <div class="venue">
+                  <i><b>ArXiv</b></i>, 2026
+                </div>
+                <div align="justify" class="tldr-text">
+                  TL;DR: We make memory management a trainable skill for LLM agents. AutoMem automates the learning of this skill end-to-end: automatically optimizing the agent scaffold (memory structure) and training a dedicated memory specialist from the agent's own traces (memory proficiency). This automated learning alone brings an open-weight Qwen2.5-32B to frontier-level performance on long-horizon tasks.
                 </div>
               </td>
             </tr>
@@ -155,25 +162,6 @@
             </tr>
             <tr>
               <td width="30%">
-                <img src="images/socrates.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
-                <div class="title">
-                  <a href="https://stanfordhci.github.io/socrates/"><b>Finetuning LLMs for Human Behavior Prediction in Social Science Experiments</b></a>
-                </div>
-                <div class="authors">
-                  Akaash Kolluri, <strong>Shengguang Wu</strong>, Joon Sung Park, Michael S. Bernstein
-                </div>
-                <div class="venue">
-                  <i><b>EMNLP-Main</b></i>, 2025
-                </div>
-                <div align="justify" class="tldr-text">
-                  TL;DR: We release SocSci210, a dataset of 2.9 million responses from 400,491 participants across 210 social science experiments. Through finetuning, our Socrates models achieve substantially better alignment with human response distributions under varying experimental conditions. We show that finetuning on just a subset of conditions within a study enables robust generalization to unseen conditions, demonstrating the potential for accurate experimental hypothesis screening with limited sample data.
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td width="30%">
                 <video width="260" autoplay muted loop>
                   <source src="images/3dgen.mp4" type="video/mp4">
                 </video>
@@ -193,6 +181,25 @@
                 </div>
                 <div align="justify" class="tldr-text">
                   TL;DR: 3D-Generalist is a generative graphics framework for creating 3D environments. Key modules include: 1. a diffusion-based panoramic generator that renders environment structures; 2. a VLA trained via self-improving loop for code generation to refine the environments; and 3. another VLA for placing diverse unlabeled 3D assets. 3D-Generalist provides a controllable pipeline to scale up synthetic 3D environment data for embodied AI.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="30%">
+                <img src="images/socrates.png" width=250px>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://stanfordhci.github.io/socrates/"><b>Finetuning LLMs for Human Behavior Prediction in Social Science Experiments</b></a>
+                </div>
+                <div class="authors">
+                  Akaash Kolluri, <strong>Shengguang Wu</strong>, Joon Sung Park, Michael S. Bernstein
+                </div>
+                <div class="venue">
+                  <i><b>EMNLP-Main</b></i>, 2025
+                </div>
+                <div align="justify" class="tldr-text">
+                  TL;DR: We release SocSci210, a dataset of 2.9 million responses from 400,491 participants across 210 social science experiments. Through finetuning, our Socrates models achieve substantially better alignment with human response distributions under varying experimental conditions. We show that finetuning on just a subset of conditions within a study enables robust generalization to unseen conditions, demonstrating the potential for accurate experimental hypothesis screening with limited sample data.
                 </div>
               </td>
             </tr>
@@ -247,6 +254,7 @@
                 </div>
                 <div class="venue">
                   <i><b>ArXiv</b></i>, 2023
+                </div>
                 <div align="justify" class="tldr-text">
                   TL;DR: <span class="small-caps">DiverseEvol</span> is an efficient instruction-tuning method that allows the model itself to iteratively sample training subsets to improve its own performance, with a key selection principle of maintaining high diversity in the chosen subsets. Across three datasets and benchmarks, our models, trained on less than 4% of the original dataset, match or improve performance compared with finetuning on full data.
                 </div>
@@ -268,44 +276,6 @@
                 </div>
                 <div align="justify" class="tldr-text">
                   TL;DR: We release <span class="small-caps">Qwen</span>, a family of highly-capabale foundation LLMs and Chat-Models. QwenLMs achieve superior performance than baselines (e.g., LLaMA2) of similar sizes on a wide range of benchmarks that measure natural language understanding, reasoning, problem solving, etc. Qwen-72B also outperforms GPT-3.5 on 70% of all tasks.
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td width="30%">
-                <img src="images/artifact.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
-                <div class="title">
-                  <a href="https://arxiv.org/pdf/2312.08056.pdf"><b>Knowledge-Aware Artifact Image Synthesis with LLM-Enhanced Prompting and Multi-Source Supervision</b></a>
-                </div>
-                <div class="authors">
-                    <strong>Shengguang Wu</strong>, Zhenglun Chen, Qi Su
-                </div>
-                <div class="venue">
-                  <i><b>ACM-MM</b></i>, 2024
-                </div>
-                <div align="justify" class="tldr-text">
-                  TL;DR: We present an artifact recovery model that accurately generates images of lost artifacts adhering to historical knowledge. Key designs include: 1. prompt enhancement with archaeological knowledge elicited from LLMs; 2. contrastive learning for textual guidance on correlated historical expertise; 3. visual-semantic constraints on edge and perceptual features for learning intricate visual details.
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td width="30%">
-                <img src="images/diffuvst.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
-                <div class="title">
-                  <a href="https://arxiv.org/pdf/2312.07066.pdf"><b>DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models</b></a>
-                </div>
-                <div class="authors">
-                    <strong>Shengguang Wu</strong>, Mei Yuan, Qi Su
-                </div>
-                <div class="venue">
-                   <i><b>EMNLP-Findings</b></i>, 2023
-                </div>
-                <div align="justify" class="tldr-text">
-                  TL;DR:  We introduced a novel non-autoregressive approach to visual storytelling, <span class="small-caps">DiffuVST</span>, which is a diffusion-based LM featuring bidirectional context guidance and multimodal adapters. It directly predicts ground-truth text embeddings from any noisy input, achieving superior performance across NLG metrics at a massively faster inference speed compared to strong autoregressive baselines.
                 </div>
               </td>
             </tr>

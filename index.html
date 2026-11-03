@@ -96,14 +96,14 @@
               <heading>About me</heading>
               <br>
                 <p class="light">
-                  I am a second-year CS PhD student at Stanford, advised by <a href="https://ai.stanford.edu/~syyeung/">Serena Yeung-Levy</a>.
-                  Previously, I completed my Master's at Peking University, advised by <a href="https://scholar.google.com.hk/citations?user=9f4JUrUAAAAJ&hl=en">Qi Su</a>, and worked with <a href="https://qwen.ai/home/">Qwen Team</a> on open-source LLM research.
+                  I am a CS PhD student at Stanford, advised by <a href="https://ai.stanford.edu/~syyeung/">Serena Yeung-Levy</a>.
+                  Previously, I worked with <a href="https://qwen.ai/home/"><strong>Qwen Team</strong></a> on open-source LLMs (<a href="#pub-qwen">Qwen</a>) and post-training techniques (<a href="#pub-diverseevol">DiverseEvol</a>).
                 </p>
                 <!-- Research Interests -->
                 <div class="container">
                   <img src="images/icons/learn3.svg" alt="Self-Improvement, Continual Learning, and Embodied Intelligence">
                   <div class="text">
-                    I study how foundation models and agents <strong>self-improve</strong> and <strong>continually learn</strong> from experience — refining their skills, memory, and tools over time, and adapting to new tasks well beyond their initial training. I am especially interested in models <strong>grounded in the physical world</strong>: sensing and acting in embodied environments, and learning from how the world reacts to their actions.
+                    I study how foundation models and agents <strong>self-improve</strong> and <strong>continually learn</strong> from experience, refining their skills, memory (<a href="#pub-automem">AutoMem</a>), and tools (<a href="#pub-tvp">TVP</a>) over time, and adapting to new tasks well beyond their initial training. I am especially interested in models <strong>grounded in the physical world</strong> (<a href="#pub-roboarchitect">RoboArchitect</a>, <a href="#pub-3dgeneralist">3D-Generalist</a>): sensing and acting in embodied environments, and learning from how the world reacts to their actions.
                   </div>
                 </div>
             </td>
@@ -122,7 +122,28 @@
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr id="pub-roboarchitect">
+              <td width="30%" align="center">
+                <video width="240" autoplay muted loop playsinline>
+                  <source src="images/roboarchitect.mp4" type="video/mp4">
+                </video>
+              </td>
+              <td width="70%" valign="middle">
+                <div class="title">
+                  <a href="https://roboarchitect-ai.github.io/"><b>RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory</b></a>
+                </div>
+                <div class="authors">
+                  <strong>Shengguang Wu</strong>, Suning Huang, Cherie Ho, Ria Doshi, Hao Zhu, Serena Yeung-Levy
+                </div>
+                <div class="venue">
+                  <i><b>ArXiv</b></i>, 2026
+                </div>
+                <div align="justify" class="tldr-text">
+                  TL;DR: RoboArchitect automatically designs and continually improves a robotic agent around a frozen robot policy, without updating any weights. These agents develop their own control routines. Most converge on a dynamic split between the VLA policy and code-as-policy, and nearly all build a persistent memory across episodes. Average success rises substantially on unseen scenes and tasks. RoboArchitect also manages to evolve a unified agent across different robot platforms that calibrates itself to each robot.
+                </div>
+              </td>
+            </tr>
+            <tr id="pub-automem">
               <td width="30%" align="center">
                 <img src="images/automem_crafter.gif" width=200px>
               </td>
@@ -134,14 +155,14 @@
                   <strong>Shengguang Wu</strong>, Hao Zhu, Yuhui Zhang, Xiaohan Wang, Serena Yeung-Levy
                 </div>
                 <div class="venue">
-                  <i><b>ArXiv</b></i>, 2026
+                  <i><b>NeurIPS</b></i>, 2026
                 </div>
                 <div align="justify" class="tldr-text">
                   TL;DR: We make memory management a trainable skill for LLM agents. AutoMem automates the learning of this skill end-to-end: automatically optimizing the agent scaffold (memory structure) and training a dedicated memory specialist from the agent's own traces (memory proficiency). This automated learning alone brings an open-weight Qwen2.5-32B to frontier-level performance on long-horizon tasks.
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr id="pub-tvp">
               <td width="30%">
                 <img src="images/tvp.png" width=250px>
               </td>
@@ -160,7 +181,7 @@
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr id="pub-3dgeneralist">
               <td width="30%">
                 <video width="260" autoplay muted loop>
                   <source src="images/3dgen.mp4" type="video/mp4">
@@ -184,7 +205,7 @@
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr id="pub-socrates">
               <td width="30%">
                 <img src="images/socrates.png" width=250px>
               </td>
@@ -203,7 +224,7 @@
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr id="pub-svco">
               <td width="30%">
                 <img src="images/svco.png" width=250px>
               </td>
@@ -222,26 +243,7 @@
                 </div>
               </td>
             </tr>
-            <tr>
-              <td width="30%">
-                <img src="images/prag2.png" width=250px>
-              </td>
-              <td width="70%" valign="middle">
-                <div class="title">
-                  <a href="https://aclanthology.org/2024.emnlp-main.1258.pdf"><b>Rethinking Pragmatics in Large Language Models: Towards Open-Ended Evaluation and Preference Tuning</b></a>
-                </div>
-                <div class="authors">
-                    <strong>Shengguang Wu</strong>, Shusheng Yang, Zhenglun Chen, Qi Su
-                </div>
-                <div class="venue">
-                  <i><b>EMNLP-Main</b></i>, 2024
-                </div>
-                <div align="justify" class="tldr-text">
-                  TL;DR: We proposed novel paradigms for assessing and enhancing social-pragmatic abilities in L(V)LMs. Key results include: 1. open-ended evaluation better reveals LLMs' pragmatic generation as opposed to multiple-choice setup; 2. preferential tuning effectively invokes pragmatic reasoning without compromising generic abilities; 3. improvement of the speaker model's multimodal theory of mind in image referential games.
-                </div>
-              </td>
-            </tr>
-            <tr>
+            <tr id="pub-diverseevol">
               <td width="30%">
                 <img src="images/diverseevol.png" width=250px>
               </td>
@@ -260,7 +262,7 @@
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr id="pub-qwen">
               <td width="30%">
                 <img src="images/qwen.jpg" width=250px>
               </td>
